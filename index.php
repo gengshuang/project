@@ -1,6 +1,5 @@
 <?php
 
-    // phpinfo();exit;
 
     // 通过PHP来获得地址的信息
     // 根地址的信息执行不同的逻辑
@@ -89,4 +88,5 @@
     // echo $path;
 
     include './views/' . $path . '.html';
+
 

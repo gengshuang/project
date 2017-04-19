@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>学IT - 后台管理系统</title>
-    <?php include "./views/layout/style.html"; ?>
+    <?php include"./views/layout/style.html";?>
 </head>
 <body>
-    <?php include "./views/layout/aside.html"; ?>
+    <?php include"./views/layout/aside.html";?>
+    
+   
     <!-- 主体 -->
     <div class="main">
         <div class="container-fluid">
-            <?php include "./views/layout/header.html"; ?>
+        <?php include"./views/layout/header.html";?>
+
             <!-- 讲师列表 -->
             <div class="body teacher-list">
                 <!-- 面包屑 -->
@@ -116,9 +119,6 @@
         </div>
     </div>
 
-    <script src="./assets/jquery/jquery.min.js"></script>
-    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="./assets/nprogress/nprogress.js"></script>
-    <script src="./js/common.js"></script>
+    <?php include"./views/layout/scipts.html";?>
 </body>
 </html>
